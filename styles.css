@@ -65,15 +65,53 @@ header h1 {
 }
 
 
+/* Aesthetic Styles for Search Bar and Dropdown */
 #search-bar {
-    padding: 5px;
+    padding: 10px;
     margin-right: 2%;
+    width: 250px; /* Adjust width as needed */
+    border-radius: 20px; /* Rounded corners */
+    border: 2px solid #4CAF50; /* Border color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: all 0.3s ease; /* Smooth transition for interactions */
+    font-size: 16px; /* Increase font size for readability */
+}
+
+#search-bar:focus {
+    border-color: #00cc44; /* Border color change on focus */
+    box-shadow: 0 4px 12px rgba(0, 204, 68, 0.4); /* Stronger shadow on focus */
+    outline: none; /* Remove default outline */
 }
 
 #sort-options {
-    padding: 5px;
+    padding: 10px;
     margin-right: 2%;
+    width: 200px; /* Adjust width as needed */
+    border-radius: 20px; /* Rounded corners */
+    border: 2px solid #4CAF50; /* Border color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: all 0.3s ease; /* Smooth transition for interactions */
+    font-size: 16px; /* Increase font size for readability */
+    background-color: white; /* Background color */
 }
+
+#sort-options:hover {
+    border-color: #00cc44; /* Border color change on hover */
+    box-shadow: 0 4px 12px rgba(0, 204, 68, 0.4); /* Stronger shadow on hover */
+}
+
+#sort-options option {
+    padding: 10px;
+    border-radius: 10px; /* Rounded corners for dropdown options */
+}
+
+/* Ensuring consistency and spacing */
+.search-sort {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Consistent spacing between elements */
+}
+
 
 .book-list {
     display: flex;
@@ -89,13 +127,14 @@ header h1 {
     padding: 1.5%;
     margin: 3%;
     text-align: center;
-    width: 40%;
+    width: 25%;
+    height: auto;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .book-card img {
     max-width: 100%;
-    height: auto;
+    height: 50%;
     border-radius: 5px;
 }
 
@@ -174,7 +213,15 @@ header h1 {
     }
 
     .book-card {
-        width: 90%;
+        width: 80%;
+        height: auto;
+        gap: 5px;
+    }
+
+    .book-card img {
+        max-width: 100%;
+        height: 200px;
+        border-radius: 5px;
     }
 
     header {

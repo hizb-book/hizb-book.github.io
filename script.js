@@ -84,12 +84,173 @@ const books = [
         id:9,
         image: 'ruling_system.png',
         name: 'The Ruling System in Islam',
-        author: '302',
+        author: '',
         pages: 131,
         pdf: 'ruling_system.pdf',
         indexPages: [2,3,4],
         language: 'English'
     },
+    {
+        id:10,
+        image: 'Islamic manifesto.png',
+        name: 'ইসলামী ইশতেহার - খিলাফতঃ দেশের জন্য একমাত্র সঠিক নেতৃত্ব অ সরকার ব্যবস্থা',
+        author: '',
+        pages: 37,
+        pdf: 'Islamic manifesto.pdf',
+        indexPages: [3],
+        language: 'Bangla'
+    },
+    {
+        id:11,
+        image: 'Gradualism.png',
+        name: 'ইসলামের দাওয়াত - ক্রোন্বময় ইসলামের বাস্তবায়ন',
+        author: '',
+        pages: 24,
+        pdf: 'Gradualism.pdf',
+        indexPages: [1],
+        language: 'Bangla'
+    },
+    {
+        id:12,
+        image: 'gold_based_economy.png',
+        name: 'অর্থনৈতিক মুক্তি ও বিশ্ব নেতৃত্বের পুনরুদ্ধারে স্বর্ণভিত্তিক মুদ্রানীতির ভূমিকা',
+        author: '',
+        pages: 12,
+        pdf: 'gold_based_economy.pdf',
+        indexPages: [1],
+        language: 'Bangla'
+    },
+    {
+        id:13,
+        image: 'Geo-Political Myth(bangla).png',
+        name: 'ভূ-রাজনীতির কল্পকথা',
+        author: 'আদনান খান',
+        pages: 143,
+        pdf: 'Geo-Political Myth(bangla).pdf',
+        indexPages: [3,4],
+        language: 'Bangla'
+    },
+    {
+        id:14,
+        image: 'Foreign-Policy.png',
+        name: 'ইসলামী খিলাফত সরকারের পররাষ্ট্রনীতির মডেল',
+        author: '',
+        pages: 15,
+        pdf: 'Foreign-Policy.pdf',
+        indexPages: [1],
+        language: 'Bangla'
+    },
+    {
+        id:15,
+        image: 'Fiqhstudies.png',
+        name: 'STUDIES IN USUL UL FIQH',
+        author: 'IYAD HILAL',
+        pages: 64,
+        pdf: 'Fiqhstudies.pdf',
+        indexPages: [3],
+        language: 'English'
+    },
+    {
+        id:16,
+        image: 'Etai Amar Path.png',
+        name: 'এটাই আমার পথ',
+        author: 'শেখ ওমর রাসেল',
+        pages: 92,
+        pdf: 'Etai Amar Path.pdf',
+        indexPages: [4],
+        language: 'Bangla'
+    },
+    {
+        id:17,
+        image: 'Democracy is a system of Kufr.png',
+        name: 'Democracy is a system of Kufr',
+        author: 'IYAD HILAL',
+        pages: 51,
+        pdf: 'Democracy is a system of Kufr.pdf',
+        indexPages: [3],
+        language: 'English'
+    },
+    {
+        id:18,
+        image: 'Dawah to Islam Full Bangla.png',
+        name: 'ইসলামের দাওয়াত  Dawah to Islam',
+        author: 'শায়খ আহমদ মাহমুদ',
+        pages: 182,
+        pdf: 'Dawah to Islam Full Bangla.pdf',
+        indexPages: [2,3],
+        language: 'Bangla'
+    },
+    {
+        id:19,
+        image: 'Daleel of khilafah.png',
+        name: 'খিলাফত কেন ফরজ?',
+        author: '',
+        pages: 4,
+        pdf: 'Daleel of khilafah.pdf',
+        indexPages: [1],
+        language: 'Bangla'
+    },
+    {
+        id:20,
+        image: 'bn_political thought edited.png',
+        name: 'Political Thought',
+        author: '',
+        pages: 28,
+        pdf: 'bn_political thought edited.pdf',
+        indexPages: [1],
+        language: 'Bangla'
+    },
+    {
+        id:21,
+        image: 'ben-IslamsModelForIndustrialization.png',
+        name: 'ইসলামী খিলাফত সরকারের শিল্পায়ন মডেল',
+        author: '', 
+        pages: 18,
+        pdf: 'ben-IslamsModelForIndustrialization.pdf',
+        indexPages: [2],
+        language: 'Bangla'
+    },
+    {
+        id:22,
+        image: 'ben-IslamsEconomicModel.png',
+        name: 'ইসলামী খিলাফত সরকারের অর্থনৈতিক মডেল',
+        author: '',
+        pages: 18,
+        pdf: 'ben-IslamsEconomicModel.pdf',
+        indexPages: [2],
+        language: 'Bangla'
+    },
+    {
+        id:23,
+        image: 'Ben_Political_Thoughts_Of_Islam.png',
+        name: 'ইসলামের রাজনৈতিক চিন্তা',
+        author: '', 
+        pages: 58,
+        pdf: 'Ben_Political_Thoughts_Of_Islam.pdf',
+        indexPages: [2],
+        language: 'Bangla'
+    },
+    {
+        id:24,
+        image: 'Ban-Oppression Of Women.png',
+        name: 'Oppression of Women',
+        author: '', 
+        pages: 22,
+        pdf: 'Ban-Oppression Of Women.pdf',
+        indexPages: [1],
+        language: 'Bangla'
+    },
+    {
+        id:25,
+        image: 'Ban-Islamic Manifesto2.png',
+        name: 'ইসলামী ইশতেহার',
+        author: '',
+        pages: 34,
+        pdf: 'Ban-Islamic Manifesto2.pdf',
+        indexPages: [2],
+        language: 'Bangla'
+    },
+
     // Add more books here
 ];
 
@@ -210,7 +371,7 @@ document.getElementById('sort-options').addEventListener('change', function() {
     } else if (sortBy === 'English') {
         sortedBooks = books.filter(book => book.language == 'English');
     } else if (sortBy === 'default') {
-        sortedBooks = books;
+        sortedBooks = bookssort((a, b) => a.id - b.id);
     }
 
     displayBooks(sortedBooks);
