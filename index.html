@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publication</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.7.570/pdf.min.js"></script>
+</head>
+<body>
+    <!-- <div>
+        <div class="intro">
+            <h1>Hizb ut Tahrir</h1>
+        </div>
+    </div> -->
+    <header>
+        <div class="navbar">
+            <button>Book</button>
+            <button>Article</button>
+            <button>Link</button>
+        </div>
+        <div class="search-sort">
+            <input type="text" id="search-bar" placeholder="Search books...">
+            <select id="sort-options">
+                <option value="default">Default</option>
+                <option value="name">Sort by Name</option>
+                <option value="author">Sort by Author</option>
+                <option value="pages">Sort by Pages</option>
+                <option value="Bangla">Bangla Book</option>
+                <option value="English">English Book</option>
+            </select>
+        </div>
+    </header>
+
+    <main>
+        <div id="book-list" class="book-list">
+            <!-- Books will be generated here dynamically -->
+        </div>
+    </main>
+
+    <div id="popup" class="popup">
+        <span id="close-popup" onclick="closePopup()">&times;</span>
+        <div id="popup-content" class="popup-content"></div>
+    </div>
+
+    <div class="footer">
+        <!-- Visitor Counter -->
+        <div class="visitor-counter">
+            This page has been visited : 
+            <!-- Visitor Counter from GitHub Pages -->
+            <img src="https://visitor-badge.glitch.me/badge?page_id=hizb-book.hizb-book" alt="Visitor Count">
+        </div>
+    
+        <!-- Copyright Notice -->
+        <div class="copyright">
+            &copy; v-1.1 Sami. All rights reserved.
+        </div>
+    </div>
+    
+    
+    
+</body>
+</html>
