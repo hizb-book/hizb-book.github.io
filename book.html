@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Details</title>
+    <link rel="stylesheet" href="book-style.css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Book Details</h1>
+        <div id="book-details" class="book-card"></div>
+    </div>
+
+    <script>
+        // Get the query parameter from the URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const bookId = parseInt(urlParams.get('id'));
+        console.log(bookId);
+
+        // Find the book by ID
+        const book = books.find(b => b.id === bookId);
+
+        if (book) {
+            const bookDetails = document.getElementById('book-details');
+            bookDetails.innerHTML = `
+                <img src="book_img/${book.image}" alt="${book.name}">
+                <h2>${book.name}</h2>
+                <p><b><i> ${book.author} </i></b></p>
+                <p><b>Pages:</b> ${book.pages}</p>
+                <p><b>Language:</b> ${book.language}</p>
+                <button class="download-btn" onclick="downloadBook('book/${book.pdf}')"><i class="fas fa-download"></i> Download</button>
+            `;
+        } else {
+            document.getElementById('book-details').textContent = 'Book not found.';
+        }
+    </script>
+</body>
+</html>
